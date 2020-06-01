@@ -284,7 +284,7 @@ if __name__ == '__main__':
     # Evaluate multiple classifiers on the data
     print("Evaluating classifiers")
     results = list(evaluate_classifier(X_train, X_test, y_train, y_test))
-
+    print("hello")
     # Display the results
     print("Plotting the results")
     plot(results)
